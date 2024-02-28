@@ -5,9 +5,16 @@ h1 {
 h2 {
     font-family: 'Courier New', Courier, monospace;
 }
+/* something is up with the divs here, fix later */
 .items {
     font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 600;
 }
 ul {
     list-style-type: none;
+    text-align: justify;
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
 }
