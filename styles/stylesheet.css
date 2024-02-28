@@ -8,3 +8,6 @@ h2 {
 .items {
     font-family: 'Courier New', Courier, monospace;
 }
+ul {
+    list-style-type: none;
+}
