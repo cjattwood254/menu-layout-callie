@@ -1,7 +1,10 @@
 body {
     background-color: rgb(252, 228, 228);}
 h1 {
-    font-family: 'Courier New', Courier, monospace;}
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
 h2 {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -16,4 +19,9 @@ ul {
 }
 .description {
     font-family: 'Courier New', Courier, monospace;
+}
+#food {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 4rem 2rem;
 }
