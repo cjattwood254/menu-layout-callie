@@ -99,6 +99,7 @@ ul {
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
         }
+        /* I got the eatMe image to be responsive, but when I tried with the drinkMe, it just disappeared. Ideally both images would be responsive to the size of the webpage */
         #eatMe {
             grid-column: 1 / 4;
             grid-row: 2 / 4;
