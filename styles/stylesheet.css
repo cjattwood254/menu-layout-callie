@@ -1,9 +1,10 @@
 body {
     background-color: rgb(252, 228, 228);}
 header {
-    border-color: rgb(147, 0, 0);
-    border-style:solid;
+    border-color: white; 
+     border-style:solid; 
     border-radius: 100px;
+    background-color: white;
 }
 #curiouser {
     text-align: left;
@@ -16,6 +17,7 @@ h1 {
     margin-top: -125px;
     margin-bottom: 50px;
 }
+/* struggled to make the borders and background colors fit around just the text, drinks especially was huge. Ideally this would have a rounded background color */
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
@@ -31,12 +33,14 @@ ul {
 }
 .description {
     font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 #food {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 125px 125px 125px 125px;
-
 }
     #sweetTreats {
         grid-column: 1 / 4;
@@ -49,34 +53,51 @@ ul {
         text-align: center;
         margin-top: -75px;
         margin-right: -45px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
     }
         #toast {
             grid-column: 1 / 2;
             grid-row: 2 / 3;
             text-align: center;
+            background-color: white;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
         }
         #cake {
             grid-column: 2 / 3;
             grid-row: 3 / 4;
             text-align: center;
             margin-top: -50px;
+            background-color: white;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
         }
         #custard {
             grid-column: 1 / 2;
             grid-row: 3 / 4;
             text-align: center;
+            background-color: white;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
         }
         #treacle {
             grid-column: 2 / 3;
             grid-row: 4 / 5;
             text-align: center;
             margin-top: -50px;
+            background-color: white;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
         }
         #cherry {
             grid-column: 2 / 3;
             grid-row: 5 / 6;
             text-align: center;
             margin-top: -50px;
+            background-color: white;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
         }
         #eatMe {
             grid-column: 1 / 4;
@@ -89,7 +110,7 @@ ul {
             grid-row: 1 / 2;
             margin-top: -225px;
             margin-inline: 210px;
-        }
+              }
     .items {
             font-family: 'Courier New', Courier, monospace;
             font-size: x-large;
@@ -98,7 +119,9 @@ ul {
             grid-row: 5 / 7;
             text-align: center;
             margin-top: -100px;
+            background-color: white;
+            border-radius: 50px;
         }
     .description {
-        font-size: larger;
+
     }
